@@ -1,0 +1,61 @@
+body {
+  font-family: "Open Sans", sans-bold;
+  background-color: #040404;
+  color: #fff;
+  position: relative;
+  background: transparent;
+}
+body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("../img/bgpau.jpeg") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+  }
+
+a {
+    color: #d2aa18;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #e89a35;
+    text-decoration: none;
+  }
+
+#header h2 span {
+    color: #ff7b00;
+    border-bottom: 2px solid #ff8800;
+    padding-bottom: 6px;
+  }
+#header .social-links a:hover {
+    background: #ff7b00;
+  }
+.navbar a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #ff7b00;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.1s ease-in-out 0s;
+  }
+
+
+
+
+.credits a {
+    color: #ff7b00;
+    transition: 0.3s;
+  }
+
+.credits a:hover {
+    color: #fff;
+  }
