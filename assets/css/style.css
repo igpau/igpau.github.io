@@ -1147,6 +1147,7 @@ section .container {
   background: #15bb62;
 }
 
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
